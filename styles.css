@@ -1,0 +1,127 @@
+body {
+  background-image: url("bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400, 500, 600, 700;
+  font-style: normal;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.left {
+  width: 500px;
+  height: 300px;
+  margin-right: 70px;
+}
+.hide {
+  display: none;
+}
+.hidden {
+  display: none;
+}
+.span {
+  color: red;
+  font-size: 10px;
+  margin-left: 270px;
+}
+h1 {
+  font-size: 50px;
+}
+.icon {
+  background-image: url("icon-error.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 370px;
+}
+#para {
+  line-height: 25px;
+}
+#try {
+  background-color: hsl(248, 32%, 49%);
+  width: 450px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+}
+#form {
+  margin-top: 10px;
+  background-color: white;
+  padding-left: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  width: 450px;
+  /* Applying a box shadow to an element */
+
+  /* width: 200px;
+  height: 200px; */
+  box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+input {
+  text-align: left;
+  width: 380px;
+  height: 30px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+  border: 1px solid hsl(246, 25%, 77%);
+}
+button {
+  width: 420px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: hsl(154, 59%, 51%);
+  margin-top: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+#span {
+  margin-left: 30px;
+  color: hsl(246, 25%, 77%);
+  font-size: 11px;
+}
+#ts {
+  color: hsl(0, 100%, 74%);
+}
+#then {
+  opacity: 10%;
+}
+
+@media screen and (max-width: 840px) {
+  body {
+    text-align: center;
+    background-image: url("bg-intro-mobile.png");
+  }
+  .left {
+    margin-top: -100px;
+    margin-right: 0px;
+    height: 0px;
+    width: 300px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .right {
+    margin-top: -100px;
+  }
+}
+button:hover {
+  opacity: 80%;
+}
